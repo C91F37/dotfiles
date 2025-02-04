@@ -1,0 +1,45 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+padding.x = 20
+padding.y = 20
+
+
+opacity = 0.52
+blur = true
+
+[colors]
+
+# Default colors
+primary.foreground = "0xFFA500" # Evangelion-style orange
+primary.background = "0x1A1A1A"
+cursor.text = "0xFFA500"
+cursor.cursor = "0xFFA500"
+
+# Normal colors
+normal.black = "0x2E1A00"
+normal.red = "0xFF4500"
+normal.green = "0xD2691E"
+normal.yellow = "0xFFA500"
+normal.blue = "0x8B4500"
+normal.magenta = "0xD2691E"
+normal.cyan = "0xFF8C00"
+normal.white = "0xFFD700"
+
+# Bright colors
+bright.black = "0x3B240B"
+bright.red = "0xFF6347"
+bright.green = "0xFF8C00"
+bright.yellow = "0xFFA500"
+bright.blue = "0xCD853F"
+bright.magenta = "0xFF4500"
+bright.cyan = "0xFFD700"
+bright.white = "0xFFEC8B"
+
+[font]
+normal.family = "Terminess Nerd Font Mono"
+size = 18
+
+[selection]
+save_to_clipboard = true
